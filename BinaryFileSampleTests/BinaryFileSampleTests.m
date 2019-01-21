@@ -2,7 +2,6 @@
 //  BinaryFileSampleTests.m
 //  BinaryFileSampleTests
 //
-//  Created by 有村 皓太郎 on 2019/01/21.
 //  Copyright © 2019年 hormiga6. All rights reserved.
 //
 

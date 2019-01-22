@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface StaticLib : NSObject
-
++ (void)printHoge;
 @end

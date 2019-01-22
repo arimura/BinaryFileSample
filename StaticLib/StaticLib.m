@@ -8,5 +8,7 @@
 #import "StaticLib.h"
 
 @implementation StaticLib
-
++ (void)printHoge {
+    NSLog(@"hoge");
+}
 @end

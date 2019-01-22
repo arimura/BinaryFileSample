@@ -17,6 +17,7 @@
 		745AFE6A21F5CFD7000C3BAF /* BinaryFileSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745AFE6921F5CFD7000C3BAF /* BinaryFileSampleUITests.m */; };
 		745AFE7F21F5D0CB000C3BAF /* StaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 745AFE7E21F5D0CB000C3BAF /* StaticLib.m */; };
 		745AFE8021F5D0CB000C3BAF /* StaticLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 745AFE7D21F5D0CB000C3BAF /* StaticLib.h */; };
+		745AFE8721F5D747000C3BAF /* libStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745AFE7B21F5D0CB000C3BAF /* libStaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745AFE8721F5D747000C3BAF /* libStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 				745AFE6821F5CFD7000C3BAF /* BinaryFileSampleUITests */,
 				745AFE7C21F5D0CB000C3BAF /* StaticLib */,
 				745AFE4321F5CFD4000C3BAF /* Products */,
+				745AFE8621F5D747000C3BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +176,13 @@
 				745AFE7E21F5D0CB000C3BAF /* StaticLib.m */,
 			);
 			path = StaticLib;
+			sourceTree = "<group>";
+		};
+		745AFE8621F5D747000C3BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BinaryFileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5957UHEQ5V;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BinaryFileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
